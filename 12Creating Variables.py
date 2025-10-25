@@ -8,6 +8,6 @@ print(y)
 
 # Variables do not need to be declared with any particular type, 
 # and can even change type after they have been set.
-x = 4           # x is of type int (intenger)
+x = 4           # x is of type int (integer)
 x = "Sally"     # x is now of type str (string)
 print(x)
