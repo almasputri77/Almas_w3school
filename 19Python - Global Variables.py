@@ -19,9 +19,9 @@ myfunc()
 x = "awesome"
 
 def myfunc():
-  x = "fantastic"
+  x = "fantastic"               
   print("Python is " + x)
 
 myfunc()
-
 print("Python is " + x)
+
