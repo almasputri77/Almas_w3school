@@ -1,3 +1,5 @@
+#Setting the Data Type
+
 # x = "Hello World"	                         str        (string)    = text
 # x = 20	                                 int	    (integer)   = number
 # x = 20.5	                                 float	                = number, decimal
