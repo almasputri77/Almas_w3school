@@ -1,3 +1,4 @@
+#Casting
 #If you want to specify the data type of a variable, this can be done with casting.
 
 x = str(3)    # x will be '3'       #string (text)
