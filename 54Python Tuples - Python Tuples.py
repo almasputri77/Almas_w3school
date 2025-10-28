@@ -106,5 +106,8 @@ print(thistuple)
 # Bisa diubah (Changable)       ✅ Ya	❌ Tidak	    ❌ Tidak	✅ Ya
 # Allows duplicate member       ✅ Ya	✅ Ya	    ❌ Tidak	❌ (key unik)
 # Dapat diakses dengan indeks	✅ Ya	✅ Ya	    ❌ Tidak	✅ (pakai key)
+#                               buah[0]    buah[0]  Hrs use loop or in  orang["nama"]
+# Can be removed after created ✅ Ya     ❌ Tidak     ✅ Ya     ✅ Ya 
+#                                   remove()            remove()    pop() 
+#                                   / pop())           / discard()) / del)
 # Contoh	                     ["a", "b"]	("a", "b")	{"a", "b"}	{"x": 1, "y": 2}
-# (indeks/key)                  buah[0]    buah[0]  Hrs use loop or in  orang["nama"]
