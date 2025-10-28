@@ -8,7 +8,7 @@ mytuple = ("apple", "banana", "cherry")
 
 # A tuple is a collection which is ordered and unchangeable.
 
-# Tuples are written with round brackets.
+# Tuples are written with round brackets.()
 
 # Example
 # Create a Tuple:
@@ -103,7 +103,8 @@ print(thistuple)
 
 # Fitur	                         List [ ]	Tuple ( )	Set { }	Dictionary {key: value}
 # Urutan (Ordered)	            ✅ Ya	✅ Ya	    ❌ Tidak	✅ Ya
-# Bisa diubah (Mutable)	        ✅ Ya	❌ Tidak	    ✅ Ya	✅ Ya
-# Bisa duplikat	                ✅ Ya	✅ Ya	    ❌ Tidak	❌ (key unik)
+# Bisa diubah (Changable)       ✅ Ya	❌ Tidak	    ❌ Tidak	✅ Ya
+# Allows duplicate member       ✅ Ya	✅ Ya	    ❌ Tidak	❌ (key unik)
 # Dapat diakses dengan indeks	✅ Ya	✅ Ya	    ❌ Tidak	✅ (pakai key)
 # Contoh	                     ["a", "b"]	("a", "b")	{"a", "b"}	{"x": 1, "y": 2}
+# (indeks/key)                  buah[0]    buah[0]  Hrs use loop or in  orang["nama"]
